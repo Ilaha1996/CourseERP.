@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CourseERP.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CourseERP.DataBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CourseERP.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseERP.Business.dll": {}
+        }
+      },
+      "CourseERP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CourseERP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseERP.Core.dll": {}
+        }
+      },
+      "CourseERP.DataBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CourseERP.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CourseERP.DataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseERP.DataBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseERP.Business/1.0.0": {
+      "type": "project",
+      "path": "../CourseERP.Business/CourseERP.Business.csproj",
+      "msbuildProject": "../CourseERP.Business/CourseERP.Business.csproj"
+    },
+    "CourseERP.Core/1.0.0": {
+      "type": "project",
+      "path": "../CourseERP.Core/CourseERP.Core.csproj",
+      "msbuildProject": "../CourseERP.Core/CourseERP.Core.csproj"
+    },
+    "CourseERP.DataBase/1.0.0": {
+      "type": "project",
+      "path": "../CourseERP.DataBase/CourseERP.DataBase.csproj",
+      "msbuildProject": "../CourseERP.DataBase/CourseERP.DataBase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CourseERP.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\CourseERP\\CourseERP.ConsoleApp\\CourseERP.ConsoleApp.csproj",
+      "projectName": "CourseERP.ConsoleApp",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\CourseERP\\CourseERP.ConsoleApp\\CourseERP.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\CourseERP\\CourseERP.ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\CourseERP\\CourseERP.Business\\CourseERP.Business.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\CourseERP\\CourseERP.Business\\CourseERP.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
